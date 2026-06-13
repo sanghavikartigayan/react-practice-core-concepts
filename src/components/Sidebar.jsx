@@ -20,9 +20,9 @@ const Sidebar = ({
             "w-full text-left px-2 py-1 rounded-sm my-1  hover:text-stone-200 hover:bg-stone-800";
 
           if (project.id === selectedProjectId) {
-            btnClassName += "bg-stone-800 text-stone-200";
+            btnClassName += " bg-stone-800 text-stone-200";
           } else {
-            btnClassName += "text-stone-400";
+            btnClassName += " text-stone-400";
           }
 
           return (
